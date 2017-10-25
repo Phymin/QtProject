@@ -1,1 +1,9 @@
-<RCC/>
+<RCC>
+    <qresource prefix="/">
+        <file>res/project manager .png</file>
+        <file>res/agv.png</file>
+        <file>res/development.png</file>
+        <file>res/Garage.png</file>
+        <file>res/delivery.png</file>
+    </qresource>
+</RCC>
