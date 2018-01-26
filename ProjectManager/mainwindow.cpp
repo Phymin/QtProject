@@ -116,5 +116,7 @@ void MainWindow::on_listView_doubleClicked(const QModelIndex &index)
     {
         QString fileName = fileInfo.absoluteFilePath();
         ShellExecute(NULL, QString("open").toStdWString().c_str(), fileName.toStdWString().c_str(), NULL, NULL, SW_SHOW);
+        //fileName = "explorer " + fileName;
+        //QProcess::execute(fileName);
     }
 }
